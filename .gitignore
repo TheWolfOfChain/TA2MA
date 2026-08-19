@@ -4,3 +4,28 @@ git commit -m "Prima versione landing page Tatuma"
 git branch -M main
 git remote add origin https://github.com/TUO_USERNAME/tatuma-landing.git
 git push -u origin main
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
